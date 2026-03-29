@@ -91,6 +91,9 @@ console.log(operations.divide(84, 2));
 
 console.log(operations.constants);
 // => { first_name: 'Johnny', last_name: 'B.', favorite_number: 42 }
+
+console.log(operations.meta);
+// => { favorite_color: 'blue', favorite_animal: 'owl' }
 ```
 
 
@@ -111,10 +114,10 @@ Import modules dynamically from a given directory.
 
 #### Params
 
-- **String** `dir`: The directory to import modules from. Supports `.js` and `.json` files.
+- **String** `dir`: The directory to import modules from. Supports `.js` and `.json` files. Recursively imports from subdirectories (excluding hidden ones).
 
 #### Return
-- **Object** An object containing the imported modules.
+- **Object** An object containing the imported modules, with subdirectories as nested objects.
 
 
 
