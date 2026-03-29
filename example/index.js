@@ -15,3 +15,6 @@ console.log(operations.divide(84, 2));
 
 console.log(operations.constants);
 // => { first_name: 'Johnny', last_name: 'B.', favorite_number: 42 }
+
+console.log(operations.meta);
+// => { favorite_color: 'blue', favorite_animal: 'owl' }
