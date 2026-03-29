@@ -12,3 +12,6 @@ console.log(operations.multiply(21, 2));
 
 console.log(operations.divide(84, 2));
 // => 42
+
+console.log(operations.constants);
+// => { first_name: 'Johnny', last_name: 'B.', favorite_number: 42 }
