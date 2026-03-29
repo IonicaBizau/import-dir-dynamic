@@ -1,6 +1,7 @@
 {
   "name": "import-dir-dynamic",
   "description": "Import modules dynamically from a given directory.",
+  "type": "module",
   "keywords": [
     "import",
     "dir",
